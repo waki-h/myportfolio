@@ -284,7 +284,6 @@ footer {
 
 .carreer dt {
   width: 15%;
-  padding-top: 35px;
   position: relative;
   opacity: 0;
   transition: all 2s ease;
@@ -298,13 +297,14 @@ footer {
   background-color: #FFCBBC;
   border-radius: 50px;
   position: absolute;
-  top: 33px;
+  top: 0;
   left: 94%;
 }
 
 .carreer dd {
   width: 84%;
-  padding: 35px 0 0 48px;
+  padding: 0 0 35px 48px;
+  margin-top: 15px;
   border-left: solid 1px rgba(36,41,46,0.5);
   box-sizing: border-box;
   opacity: 0;
@@ -592,7 +592,7 @@ footer {
 
   .carreer dt {
     width: 100%;
-    padding: 0 0 0 10px;
+    padding: 0 0 0 17px;
   }
 
   .carreer dt::before {
@@ -603,6 +603,7 @@ footer {
   .carreer dd {
     width: 100%;
     padding: 12px 0 35px 48px;
+    margin-top: 2px;
   }
 
   .detailBack {
