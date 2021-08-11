@@ -315,7 +315,7 @@ footer {
 }
 
 .carreer p {
-  line-height: unset;
+  line-height: 19px;
   padding-top: 10px;
   font-size: 13px;
 }
@@ -499,7 +499,7 @@ footer {
 
 }
 
-
+/* ここからスマホ画面 */
 @media screen and (max-width:600px) {
 
   header {
@@ -586,6 +586,10 @@ footer {
 
   .carreer {
     flex-direction: column;
+  }
+　
+　.carreer p {
+    font-size: 12px;
   }
 
   .carreer dt {
