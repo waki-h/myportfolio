@@ -32,6 +32,7 @@ header {
 .logo {
   font-size: 25px;
   color: #24292e;
+  animation: fadeIn 2s ease 0.2s 1 normal;
 }
 
 .topText {
@@ -41,6 +42,17 @@ header {
   padding: 49px;
   color: #ffffff;
   text-shadow: 1px 2px 4px rgb(36,41,46,0.3);
+  animation: fadeIn 2s ease 0.2s 1 normal;
+}
+
+@keyframes fadeIn {
+0% {
+  opacity: 0;
+  transform: translate(0, 15px);
+}
+100% {
+  opacity: 1;
+}
 }
 
 .topText p {
@@ -69,6 +81,7 @@ header {
 .nav {
   display: flex;
   align-items: center;
+  animation: fadeIn 2s ease 0.2s 1 normal;
 }
 
 .spNav {
@@ -262,6 +275,7 @@ footer {
   right: 0;
   margin: auto;
   text-shadow: 1px 2px 4px rgb(36,41,46,0.3);
+  animation: fadeIn 2s ease 0.2s 1 normal;
 }
 
 .carreer {
@@ -269,10 +283,14 @@ footer {
   flex-wrap: wrap;
 }
 
+
+
 .carreer dt {
   width: 15%;
   padding-top: 35px;
   position: relative;
+  opacity: 0;
+  transition: all 2s ease;
 }
 
 .carreer dt::before {
@@ -292,6 +310,8 @@ footer {
   padding: 35px 0 0 48px;
   border-left: solid 1px rgba(36,41,46,0.5);
   box-sizing: border-box;
+  opacity: 0;
+  transition: all 2s ease;
 }
 
 .carreer p {
@@ -522,6 +542,7 @@ footer {
     position: fixed;
     top: 3.2%;
     right: 4%;
+    animation: fadeIn 2s ease 0.2s 1 normal;
   }
 
   #drawerToggle span {
@@ -556,7 +577,7 @@ footer {
   }
 
   .subPageTitle {
-    top: 154px;
+    top: 138px;
   }
 
   .aboutBack {
@@ -585,6 +606,5 @@ footer {
   .detailBack {
     height: 150px;
   }
-
 
 }
