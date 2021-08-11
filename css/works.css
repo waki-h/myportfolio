@@ -573,6 +573,7 @@ footer {
     transform: rotate(-45deg);
   }
 
+/* Aboutページのスマホ画面 */
   .subPageTitle {
     top: 138px;
   }
@@ -606,6 +607,19 @@ footer {
 
   .detailBack {
     height: 150px;
+  }
+
+/* worksページのスマホ画面 */
+  .worksImg {
+    width: 100%;
+  }
+	
+  .detail {
+    width: 100%;
+  }
+	
+  .pageImg {
+    width: 100%;
   }
 
 }
