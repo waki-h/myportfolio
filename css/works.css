@@ -275,15 +275,12 @@ footer {
   right: 0;
   margin: auto;
   text-shadow: 1px 2px 4px rgb(36,41,46,0.3);
-  animation: fadeIn 2s ease 0.2s 1 normal;
 }
 
 .carreer {
   display: flex;
   flex-wrap: wrap;
 }
-
-
 
 .carreer dt {
   width: 15%;
