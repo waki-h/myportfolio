@@ -333,7 +333,6 @@ footer {
 }
 
 .worksImg {
-  width: 80%;
   margin: auto;
 }
 
@@ -342,7 +341,6 @@ footer {
 }
 
 .detail {
-  width: 80%;
   margin: 35px auto;
   display: flex;
   justify-content: space-between;
@@ -364,6 +362,22 @@ footer {
 
 .detail span {
   margin-right: 5px;
+}
+
+.detail2 {
+  margin: 70px auto 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.detail2 dt {
+  width: 25%;
+}
+
+.detail2 dd {
+  width: 70%;
+  padding-bottom: 20px;
 }
 
 .white::before {
