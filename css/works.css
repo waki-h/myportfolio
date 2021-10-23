@@ -381,6 +381,19 @@ footer {
   padding-bottom: 20px;
 }
 
+.probrem {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.probrem li:nth-child(odd) {
+  width: 5%;
+}
+
+.probrem li:nth-child(even) {
+  width: 95%;
+}
+
 .white::before {
   content: "";
   display: inline-block;
