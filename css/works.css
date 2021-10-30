@@ -196,6 +196,22 @@ section h2 {
   padding-bottom: 20px;
 }
 
+h3 {
+  text-align: center;
+  padding: 47px 0 10px;
+}
+
+.skillList dt {
+  font-size: 16px;
+  padding: 17px 0;
+}
+
+i {
+  font-size: 25px;
+  color: #FFB3A6;
+  padding-right: 10px;
+}
+
 .btn {
   text-align: center;
   margin-top: 100px;
