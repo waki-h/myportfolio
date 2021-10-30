@@ -206,6 +206,11 @@ h3 {
   box-sizing: border-box;
 }
 
+.skillIcon {
+  text-align: center;
+  padding-top: 20px;
+}
+
 .skillDetail {
   background-color: rgba(255, 239, 213, 0.1);
   box-shadow: 3px 7px 8px -9px rgba(0,0,0,0.6);
@@ -226,9 +231,8 @@ h3 {
 }
 
 i {
-  font-size: 25px;
   color: #FFB3A6;
-  padding-right: 10px;
+  font-size: 35px;
 }
 
 
@@ -361,7 +365,7 @@ footer {
   width: 15px;
   height: 15px;
   display: block;
-  background-color: #FFCBBC;
+  background-color: #FFB3A6;
   border-radius: 50px;
   position: absolute;
   top: 0;
