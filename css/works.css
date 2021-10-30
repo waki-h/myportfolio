@@ -201,7 +201,7 @@ h3 {
   padding: 47px 0 10px;
 }
 
-skillList {
+.skillList {
   display: flex;
   box-sizing: border-box;
 }
