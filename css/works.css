@@ -201,9 +201,28 @@ h3 {
   padding: 47px 0 10px;
 }
 
-.skillList dt {
-  font-size: 16px;
-  padding: 17px 0;
+skillList {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.skillDetail {
+  background-color: rgba(255, 239, 213, 0.1);
+  box-shadow: 3px 7px 8px -9px rgba(0,0,0,0.6);
+  border-radius: 8px;
+  padding: 0 10px 20px;
+  margin: 0 10px;
+  flex: 1;
+}
+
+.skillDetail h4 {
+  text-align: center;
+  padding: 20px 0 15px;
+}
+
+.skillDetail p {
+  font-size: 13px;
+  line-height: 2;
 }
 
 i {
@@ -211,6 +230,7 @@ i {
   color: #FFB3A6;
   padding-right: 10px;
 }
+
 
 .btn {
   text-align: center;
