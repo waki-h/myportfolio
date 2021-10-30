@@ -643,6 +643,14 @@ footer {
 .uiMemo {
     text-align: left;
   }
+	
+ h3 {
+    font-size: 14px;
+  }
+
+  .skillList {
+    flex-direction: column;
+  }
 
   #drawerToggle {
     z-index: 3;
