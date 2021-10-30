@@ -639,6 +639,11 @@ footer {
   }
 
 /* Aboutページのスマホ画面 */
+	
+  h1 {
+    font-size: 17px;
+  }
+
   .subPageTitle {
     top: 138px;
   }
