@@ -233,7 +233,23 @@ section h2 {
   width: 100%;
 }
 
-imgList img:hover {
+.imgUiList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.imgUiList li {
+  width: 31%;
+  margin-bottom: 23px;
+  position: relative;
+}
+
+.imgUiList img {
+  width: 100%;
+}
+
+.imgList img:hover {
   opacity: 0.5;
   transition:	all 0.5s ease;
 }
@@ -565,6 +581,10 @@ footer {
   }
 
   .imgList li {
+    width: 100%;
+  }
+
+.imgUiList li {
     width: 100%;
   }
 
