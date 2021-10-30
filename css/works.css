@@ -183,6 +183,13 @@ section h2 {
 
 .profile {
   margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.profile img {
+  width: 18%;
+  padding-right: 40px;
 }
 
 .profText p {
