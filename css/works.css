@@ -556,6 +556,10 @@ footer {
 /* ここからスマホ画面 */
 @media screen and (max-width:600px) {
 
+ h1 {
+    font-size: 17px;
+  }
+
   header {
     padding-bottom: 80px;
   }
@@ -585,6 +589,11 @@ footer {
 
   section dl {
     font-size: 13px;
+  }
+
+ .profile img {
+    width: 33%;
+    padding-right: 10px;
   }
 
   .imgList li {
@@ -639,10 +648,6 @@ footer {
   }
 
 /* Aboutページのスマホ画面 */
-	
-  h1 {
-    font-size: 17px;
-  }
 
   .subPageTitle {
     top: 138px;
