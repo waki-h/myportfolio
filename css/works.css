@@ -140,11 +140,11 @@ header {
 }
 
 section {
-  max-width: 960px;
+  max-width: 1000px;
   box-sizing: border-box;
   padding: 0 4%;
   margin: 0 auto 130px;
-  color: #24292e;
+  color: #000000;
 }
 
 section ul {
@@ -282,6 +282,8 @@ i {
 
 .imgList img {
   width: 100%;
+  height: 87%;
+  box-shadow: 3px 5px 11px -5px rgba(0,0,0,0.6);
 }
 
 .imgUiList {
@@ -298,6 +300,8 @@ i {
 
 .imgUiList img {
   width: 100%;
+  height: 87%;
+  box-shadow: 3px 5px 11px -5px rgba(0,0,0,0.6);
 }
 
 .imgList img:hover {
@@ -413,6 +417,7 @@ footer {
 
 .worksImg Img {
   width: 100%;
+  box-shadow: 3px 5px 11px -5px rgba(0,0,0,0.6);
 }
 
 .detail {
@@ -455,16 +460,20 @@ footer {
   padding-bottom: 20px;
 }
 
-.probrem {
+.problem {
   display: flex;
   flex-wrap: wrap;
 }
 
-.probrem li:nth-child(odd) {
+.problem li {
+  padding-bottom: 8px;
+}
+
+.problem li:nth-child(odd) {
   width: 5%;
 }
 
-.probrem li:nth-child(even) {
+.problem li:nth-child(even) {
   width: 95%;
 }
 
@@ -573,6 +582,7 @@ footer {
 
 .pageImg Img {
   width: 100%;
+  box-shadow: 3px 5px 11px -5px rgba(0,0,0,0.6);  
 }
 
 
@@ -640,6 +650,10 @@ footer {
     padding-right: 10px;
   }
 
+  .profList span {
+    font-size: 14px;
+  }
+
   .imgList li {
     width: 100%;
   }
@@ -651,7 +665,7 @@ footer {
 .uiMemo {
     text-align: left;
   }
-	
+
  h3 {
     font-size: 14px;
   }
@@ -741,11 +755,11 @@ footer {
   .worksImg {
     width: 100%;
   }
-	
+
   .detail {
     width: 100%;
   }
-	
+
   .pageImg {
     width: 100%;
   }
